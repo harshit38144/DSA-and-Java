@@ -1,4 +1,4 @@
-package String;
+package LearningString;
 
 import java.util.Scanner;
 
