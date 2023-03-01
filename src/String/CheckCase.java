@@ -12,12 +12,12 @@ public class CheckCase {
         int ch=sc.next().trim().charAt(0);
         if(Character.isLetter(ch)==true){
             if(Character.isUpperCase(ch)){
-                System.out.println(ch+" is an Upper case letter.");
+                System.out.println((char)ch+" is an Upper case letter.");
             }else
-                System.out.println(ch+" is a lower case letter");
+                System.out.println((char)ch+" is a lower case letter");
         } else if (Character.isDigit(ch)) {
-            System.out.println(ch+" is a digit");
+            System.out.println((char)ch+" is a digit");
         }else
-            System.out.println(ch +" is a special character.");
+            System.out.println( (char)ch +" is a special character.");
     }
 }
